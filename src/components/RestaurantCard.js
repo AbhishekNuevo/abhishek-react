@@ -4,9 +4,10 @@ export const RestaurantCard = (item)=>{
 
     const {info} = item || {}
 
-    console.log("RestaurantCard Image - ",info)
+    // console.log("RestaurantCard Image - ",info)
 
-  return (  <div className='res-card' >
+  return (  
+  <div key={info.id} className='res-card' >
          <div className='res-img-container'>
          <img className='res-logo'  src={IMAGE_BASE_URL +info?.cloudinaryImageId }></img>
          </div>

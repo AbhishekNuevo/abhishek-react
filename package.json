@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
-    "build" : "parcel build index.html"
+    "build": "parcel build index.html"
   },
   "author": "abhishek",
   "license": "ISC",
@@ -15,11 +15,10 @@
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-loading-skeleton": "^3.4.0"
   },
-
-  "browserlist" : [
+  "browserlist": [
     "last 10 versions"
-]
-
+  ]
 }
